@@ -24,8 +24,11 @@
   },
   "homepage": "https://github.com/rdiego26/redis-session-storage",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.17.2",
+    "dotenv": "^10.0.0",
     "express": "^4.15.3",
+    "jsonwebtoken": "^8.5.1",
     "redis": "2.1.0"
   },
   "devDependencies": {
